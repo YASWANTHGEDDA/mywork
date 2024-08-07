@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+    margin-top: 20px;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+.art1sec1 h1{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.art1sec1 p{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.art1sec1 button{
+    background-color: rgb(9, 83, 59);
+    border: 0px;
+    padding: 15px 22px;
+    border-radius: 25px;
+    color: aliceblue;
+}
+.art1sec2 img{
+    border-radius: 18px;
+    width: 65%;
+}
+.sec2art{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.sec2art h3{
+    margin-bottom: 20px;
+}
+.container2{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+    border: 3px solid cyan;
+    border-radius: 20px;
+}
+.sec2art p{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.container3{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    padding: 20px;
+    background-color:beige;
+    grid-template-columns: 1fr 3fr;
+    border-radius: 20px;
+}
+.Imgsec3 {
+    width: 100%;
+    border-radius: 20px;
+}
+.infosec3 h3{
+    font-size: 28px;
+  margin-bottom: 15px;
+}
+.infosec3 p{
+    color: black;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+.container4{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.Deatils{
+    display:flex ;
+    gap: 20px;
+}
+.price{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.section-4-card-price 
+{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.normwatch button{
+    background-color: rgb(9, 83, 59);
+    border: 0px;
+    padding: 15px 22px;
+    border-radius: 25px;
+    color: aliceblue;
+}
+
+button:hover{
+    border-radius:25px ;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(213, 250, 250);
+    color: blue;
+}
+/* .Cardinfo{
+    margin-bottom: 20px;
+} */
+.editTxt{
+    margin-bottom: 20px;
+}
+.normwatch img{
+    width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 30px;
+}
+.normwatch{
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    /* position: relative; */
+}
+.adjust{
+    width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+.sale{
+    border: 2px solid black;
+    background-color: skyblue;
+    position: absolute;
+    top:-5px;
+    left: -20px;
+}
+.sale1{
+    border: 2px solid black;
+    background-color: skyblue;
+    position: absolute;
+    top:-5px;
+    left: -5px;
+    
+}
